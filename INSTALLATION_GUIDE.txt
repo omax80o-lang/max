@@ -1,0 +1,17 @@
+دليل تركيب ثيم رنّة خلخال — Salla Partners
+تاريخ: 2025-10-30 03:02 UTC
+
+خطوات سريعة:
+1) أنشئ مستودع GitHub جديد (مثال: renna-khalkhal-theme).
+2) ارفع كل محتويات الحزمة إلى الفرع main.
+3) في portal.salla.partners -> My Themes -> Create Theme -> From GitHub.
+4) اختر المستودع والفرع -> Confirm -> Explore Environment -> Publish.
+
+تعديل مفاتيح API:
+- افتح ملف JS داخل ملفات الثيم في Twilight واستبدل مفتاح GoldAPI.
+- اضبط usdToSar إذا أردت ربط بسعر صرف حقيقي.
+
+ملاحظات نهائية:
+- استبدل صور placeholders بالصور الحقيقية قبل النشر.
+- لتعديل نصوص أو نسب الضريبة افتح config.json داخل محرر الثيم.
+دعم: omax80o@gmail.com

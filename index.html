@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<title>رنّة خلخال — معاينة</title>
+<link rel="icon" href="/favicon.ico">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+:root{--gold:#d4af37;--dark:#0b0b0b;--bg:#fff}
+body{font-family:Tajawal, sans-serif;margin:0;background:var(--bg);direction:rtl}
+.header{background:#fff;padding:16px 20px;border-bottom:1px solid #f3ead8;display:flex;align-items:center;justify-content:space-between}
+.brand{display:flex;align-items:center;gap:12px}
+.brand img{height:46px}
+.ticker{background:var(--dark);color:var(--gold);padding:8px 12px;text-align:center;font-weight:700;position:sticky;top:0;z-index:9999}
+.hero{background-image:linear-gradient(90deg, rgba(244,240,236,0.6), rgba(255,255,255,0.0));padding:40px;text-align:center}
+.hero h1{font-size:28px;color:#111;margin:0 0 10px}
+.hero p{color:#a78f5a;margin:8px 0;font-weight:600}
+.cta{display:inline-block;background:var(--gold);color:#111;padding:10px 18px;border-radius:8px;text-decoration:none;font-weight:700}
+.grid{display:flex;flex-wrap:wrap;gap:18px;padding:20px;justify-content:center}
+.card{width:260px;background:#fff;border-radius:12px;border:1px solid #f6efe3;padding:12px;text-align:center;box-shadow:0 6px 18px rgba(11,11,11,0.04)}
+.card img{height:160px;object-fit:contain;width:100%}
+.card h3{margin:10px 0 6px;color:#333;font-size:15px}
+.price{color:var(--gold);font-weight:800}
+.footer{background:var(--dark);color:var(--gold);padding:22px;text-align:center;margin-top:24px}
+.sep{height:4px;background:linear-gradient(90deg,#d4af37,#f7e6c2);width:100%}
+.badge{display:inline-block;background:#fff;color:#b88b2f;padding:6px 10px;border-radius:6px;font-weight:700;margin-top:12px}
+</style>
+</head>
+<body>
+<header class="header"><div class="brand"><img src="assets/logo.png" alt="logo"><div><strong>رنّة خلخال</strong><div style="font-size:12px;color:#777">الذهب والمجوهرات</div></div></div></header>
+<div class="ticker" id="gold-ticker">جاري تحميل أسعار الذهب...</div>
+<section class="hero">
+  <h1>✨ تألّقي مع أرقى تشكيلات الذهب والمجوهرات ✨</h1>
+  <a class="cta" href="#">تسوقي الآن</a>
+  <div class="badge">خصم حتى 10٪ على التشكيلات الجديدة</div>
+</section>
+
+<section class="grid" id="products">
+  <div class="card"><img src="assets/placeholder1.png" alt=""><h3>خاتم ذهب 21</h3><div class="price">1,250.00 ريال</div></div>
+  <div class="card"><img src="assets/placeholder2.png" alt=""><h3>أساور ذهب 21</h3><div class="price">980.00 ريال</div></div>
+  <div class="card"><img src="assets/placeholder3.png" alt=""><h3>سلسلة ذهب</h3><div class="price">1,450.00 ريال</div></div>
+  <div class="card"><img src="assets/placeholder4.png" alt=""><h3>سبيكة ذهب 1 جم</h3><div class="price">215.00 ريال</div></div>
+</section>
+
+<div class="sep"></div>
+<footer class="footer">
+  روابط التواصل: واتساب | سناب شات | تيك توك<br>
+  © 2025 رنّة خلخال للذهب والمجوهرات — جميع الحقوق محفوظة
+</footer>
+
+<script>
+// demo ticker using placeholder values (replace with GoldAPI in Twilight JS)
+function updateTickerDemo(){
+  const el = document.getElementById('gold-ticker');
+  el.textContent = '🔸 عيار 24: 287.50 ريال  🔸 عيار 22: 264.30 ريال  🔸 عيار 21: 251.50 ريال  🔸 عيار 18: 215.60 ريال';
+}
+updateTickerDemo();
+</script>
+</body>
+</html>

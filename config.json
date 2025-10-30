@@ -1,0 +1,12 @@
+{
+  "taxes": {
+    "mashghool_18": 0.15,
+    "mashghool_21": 0.15,
+    "bullion": 0.0
+  },
+  "bullion_handling_fee": 5,
+  "payment_surcharges": {
+    "tabby": 0.1,
+    "tamara": 0.1
+  }
+}
